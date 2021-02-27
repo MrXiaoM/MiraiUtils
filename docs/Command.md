@@ -1,6 +1,6 @@
 # CommandListener
 ----
-命令系统帮助  
+## 命令系统帮助  
 
 用法:  
 ```java
@@ -9,8 +9,9 @@ cmdListener.registerCommand(命令);
 cmdListener.registerToChannel(事件频道);
 ```
 新建命令只需要让类继承 `CommandModel` 即可  
-  
-举个例子:  
+
+----
+## 举个例子
   
 新建命令  
 ```java
