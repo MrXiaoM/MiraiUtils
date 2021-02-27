@@ -29,7 +29,7 @@ public class ExampleCommand extends CommandModel{
 			Member member = senderGroup.getMember();
 			QuoteReply quote = new QuoteReply(senderGroup.getMessageSource());
 			if(args.length >= 1) {
-			if(args.length == 1) {
+				if(args.length == 1) {
 					if(args[0].contentToString().equalsIgnoreCase("getid")) {
 						group.sendMessage(quote.plus("Your QQ UID is " + member.getId() + "."));
 					}
